@@ -1,0 +1,142 @@
+[
+  {
+    "id": "m1",
+    "name": "מאק אנד צ'יז",
+    "price": "8.99",
+    "description": "פסטה מקרוני עם רוטב גבינת צ'דר עשיר ומעטה פירורי לחם פריך. קלאסיקה מנחמת.",
+    "image": "images/mac-and-cheese.jpg"
+  },
+  {
+    "id": "m2",
+    "name": "פיצת מרגריטה",
+    "price": "12",
+    "description": "פיצה קלאסית עם מוצרלה טרייה, עגבניות ובזיליקום על בצק דק וקריספי.",
+    "image": "images/margherita-pizza.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "סלט קיסר",
+    "price": "7.99",
+    "description": "חסה רומאית ברוטב קיסר, עם קרוטונים ופתיתי פרמזן.",
+    "image": "images/caesar-salad.jpg"
+  },
+  {
+    "id": "m4",
+    "name": "ספגטי קרבונרה",
+    "price": "10.99",
+    "description": "ספגטי אל דנטה עם רוטב שמנת, חלמון ביצה, גבינת פקורינו, פנצ'טה ופלפל שחור.",
+    "image": "images/spaghetti-carbonara.jpg"
+  },
+  {
+    "id": "m5",
+    "name": "המבורגר טבעוני",
+    "price": "9.99",
+    "description": "קציצה טבעונית עסיסית בלחמניית דגנים עם חסה, עגבנייה ורוטב חמוץ-מתוק.",
+    "image": "images/veggie-burger.jpg"
+  },
+  {
+    "id": "m6",
+    "name": "סנדוויץ' עוף בגריל",
+    "price": "10.99",
+    "description": "חזה עוף בגריל עם אבוקדו, בייקון, חסה ורוטב חרדל-דבש בלחמנייה קלוייה.",
+    "image": "images/grilled-chicken-sandwich.jpg"
+  },
+  {
+    "id": "m7",
+    "name": "סטייק וצ'יפס",
+    "price": "17.99",
+    "description": "סטייק עסיסי לפי מידת עשייה לבחירתך, מוגש עם צ'יפס זהובים וחמאת עשבי תיבול.",
+    "image": "images/steak-frites.jpg"
+  },
+  {
+    "id": "m8",
+    "name": "מגש סושי רול",
+    "price": "15.99",
+    "description": "מבחר רולים טריים: קליפורניה, טונה חריפה ואבוקדו עם צלופח.",
+    "image": "images/sushi-roll-platter.jpg"
+  },
+  {
+    "id": "m9",
+    "name": "קארי עוף",
+    "price": "13.99",
+    "description": "נתחי עוף ברוטב קארי עשיר וארומטי, מוגש עם אורז בסמטי.",
+    "image": "images/chicken-curry.jpg"
+  },
+  {
+    "id": "m10",
+    "name": "קערת בודהה טבעונית",
+    "price": "11.99",
+    "description": "קערה מזינה עם קינואה, ירקות קלויים, אבוקדו ורוטב טחינה.",
+    "image": "images/vegan-buddha-bowl.jpg"
+  },
+  {
+    "id": "m11",
+    "name": "פאייה ים תיכונית",
+    "price": "19.99",
+    "description": "מנה ספרדית עם אורז מתובל בזעפרן, שרימפס, מולים וצ'וריסו.",
+    "image": "images/seafood-paella.jpg"
+  },
+  {
+    "id": "m12",
+    "name": "מגדל פנקייק",
+    "price": "8.99",
+    "description": "פנקייקים רכים במגדל, עם סירופ מייפל ופירות יער טריים.",
+    "image": "images/pancake-stack.jpg"
+  },
+  {
+    "id": "m13",
+    "name": "ראמן מיסו",
+    "price": "12.99",
+    "description": "קערת ראמן חמימה עם ציר מיסו, חזיר רך, ביצה חצי קשה ובצל ירוק.",
+    "image": "images/miso-ramen.jpg"
+  },
+  {
+    "id": "m14",
+    "name": "טאקו בקר",
+    "price": "9.99",
+    "description": "שלושה טאקוס רכים עם בקר מתובל, סלסה טרייה, גבינה ושמנת חמוצה.",
+    "image": "images/beef-tacos.jpg"
+  },
+  {
+    "id": "m15",
+    "name": "בראוניז שוקולד",
+    "price": "5.99",
+    "description": "בראוניז עשיר ושוקולדי, עם כדור גלידת וניל ורוטב שוקולד מעל.",
+    "image": "images/chocolate-brownie.jpg"
+  },
+  {
+    "id": "m16",
+    "name": "מרק לובסטר",
+    "price": "14.99",
+    "description": "מרק שמנת עשיר מציר לובסטר, ירקות ארומטיים ונגיעת ברנדי.",
+    "image": "images/lobster-bisque.jpg"
+  },
+  {
+    "id": "m17",
+    "name": "ריזוטו פטריות",
+    "price": "13.99",
+    "description": "ריזוטו קרמי מאורז ארבוריו עם תערובת פטריות יער ופרמזן.",
+    "image": "images/mushroom-risotto.jpg"
+  },
+  {
+    "id": "m18",
+    "name": "חציל פרמזן",
+    "price": "11.99",
+    "description": "שכבות של חציל מצופה, רוטב עגבניות, מוצרלה ופרמזן מותכים.",
+    "image": "images/eggplant-parmesan.jpg"
+  },
+  {
+    "id": "m19",
+    "name": "עוגת גבינה לימון",
+    "price": "6.99",
+    "description": "עוגת גבינה קרמית בטעם לימון, על בסיס ביסקוויטים פריך.",
+    "image": "images/lemon-cheesecake.jpg"
+  },
+  {
+    "id": "m20",
+    "name": "פלאפל בפיתה",
+    "price": "8.99",
+    "description": "כדורי פלאפל פריכים בפיתה חמה עם חסה, עגבניות וטחינה.",
+    "image": "images/falafel-wrap.jpg"
+  }
+]

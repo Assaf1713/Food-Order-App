@@ -67,6 +67,7 @@ h1 {
   overflow: hidden;
   text-align: center;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  font-family: 'Assistant', sans-serif;
 }
 
 .meal-item article {
@@ -106,6 +107,15 @@ h1 {
 .meal-item-actions {
   margin-bottom: 1.5rem;
 }
+
+
+.loading  {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffc404;
+  margin: 2rem auto;
+}
+
 
 .cart h2 {
   margin: 1rem 0;
@@ -248,6 +258,9 @@ h1 {
 .modal::backdrop {
   background-color: rgba(0, 0, 0, 0.55);
 }
+
+
+
 
 .center {
   text-align: center;

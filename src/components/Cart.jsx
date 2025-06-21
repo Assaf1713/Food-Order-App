@@ -21,8 +21,12 @@ export default function Cart() {
     userProgressCtx.hideCart();
   }
 
+  function handleCheckout() {
+    userProgressCtx.showCheckout();
+    }
+
   return (
-    <Modal className="cart" open={userProgressCtx.progress === "cart"}>
+    <Modal className="cart" open={userProgressCtx.progress === "cart"} onClose={closeCartModal}>
       <h2>Your Cart</h2>
       {cartCtx.items.length === 0 ? (
         <p>Your cart is empty.</p>
@@ -48,7 +52,7 @@ export default function Cart() {
           Close
         </Button>
         {cartCtx.items.length === 0 ? null : (
-          <Button textOnly> Checkout </Button>
+          <Button onClick={handleCheckout}> Checkout </Button>
         )}
       </p>
     </Modal>

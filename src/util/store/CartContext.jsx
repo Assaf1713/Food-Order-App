@@ -47,7 +47,7 @@ function cartReducer(state, action) {
     return { ...state, items: updatedItems };
   }
   if (action.type === "CLEAR") {
-    return { items: [], totalAmount: 0 };
+    return {...state, items: [] };
   }
   return state;
 }
