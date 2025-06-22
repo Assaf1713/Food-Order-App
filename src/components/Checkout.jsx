@@ -54,9 +54,9 @@ export default function Checkout({}) {
   let actions = (
     <>
       <Button type="button" textOnly onClick={handleClose}>
-        Cancel
+        ביטול
       </Button>
-      <Button>Submit Order</Button>
+      <Button>שלח הזמנה</Button>
     </>
   );
 
@@ -66,17 +66,17 @@ export default function Checkout({}) {
       <Modal
         open={userProgressCtx.progress === "checkout"}
         onClose={handleClose}>
-        <h2>Order Successful!</h2>
-        <p>Thank you for your order!</p>
+        <h2>ההזמנה התקבלה בהצלחה !</h2>
+        <p>תודה על ההזמנה</p>
         <p className="modal-actions">
-        <Button onClick={handleFinish}>OK!</Button>
+        <Button onClick={handleFinish}>סגור</Button>
         </p>
       </Modal>
     )
   }
 
   if (isSending) {
-    actions = <p className="loading">Sending order...</p>;
+    actions = <p className="loading">שולח הזמנה לחנות...</p>;
   }
 
   return (
@@ -86,14 +86,14 @@ export default function Checkout({}) {
       onClose={userProgressCtx === "cart" ? handleClose : null}
     >
       <form onSubmit={handleSubmit}>
-        <h2> Checkout</h2>
-        <p> Total Amount : {currencyFormatter.format(cartTotal)}</p>
-        <Input label="Your Name" type="text" id="name" />
-        <Input label="Your Address" type="text" id="street" />
-        <Input label="Your Email" type="email" id="email" />
+        <h2> עמוד התשלום</h2>
+        <p> סה"כ להזמנה : {currencyFormatter.format(cartTotal)}</p>
+        <Input label="השם שלך" type="text" id="name" />
+        <Input label="כתובת" type="text" id="street" />
+        <Input label=" מייל" type="email" id="email" />
         <div className="control-row">
-          <Input label="Postal Code" type="text" id="postal-code" />
-          <Input label="City" type="text" id="city" />
+          <Input label=" מיקוד" type="text" id="postal-code" />
+          <Input label="עיר" type="text" id="city" />
         </div>
         {error && <Error title='failed to submit the order' message={error} />}
 

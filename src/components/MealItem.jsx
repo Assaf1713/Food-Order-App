@@ -27,7 +27,7 @@ export default function MealItem({ meal }) {
         </div>
         <p className="meal-item-actions">
           <Button onClick={addToCartHandler}>
-            Add to Cart
+            הוסף לסל
           </Button>
         </p>
       </article>

@@ -1,5 +1,5 @@
 import Button from "./UI/Button.jsx";
-import logoImg from "../assets/logo.jpg";
+import logoImg from "../assets/alexander_logo.jpg";
 import CartContext from "../util/store/CartContext.jsx";
 import { useContext } from "react";
 import Cart from "./Cart.jsx";
@@ -31,7 +31,7 @@ export default function Header({ openCart }) {
       </div>
       <nav>
         <Button textOnly onClick={openCartHandler}>
-          Cart ({totalItems})
+          סל הקניות ({totalItems})
         </Button>
       </nav>
     </header>

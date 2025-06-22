@@ -27,9 +27,9 @@ export default function Cart() {
 
   return (
     <Modal className="cart" open={userProgressCtx.progress === "cart"} onClose={closeCartModal}>
-      <h2>Your Cart</h2>
+      <h2>סל הקניות שלך</h2>
       {cartCtx.items.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p>הוסף לסל מוצרים טעימים</p>
       ) : (
         <ul>
           {cartCtx.items.map((item) => (
@@ -45,14 +45,14 @@ export default function Cart() {
         </ul>
       )}
       <p className="cart-total">
-        Total Amount: {currencyFormatter.format(cartTotal)}{" "}
+        סה"כ לתשלום: {currencyFormatter.format(cartTotal)}{" "}
       </p>
       <p className="modal-actions">
         <Button textOnly onClick={closeCartModal}>
-          Close
+          סגור
         </Button>
         {cartCtx.items.length === 0 ? null : (
-          <Button onClick={handleCheckout}> Checkout </Button>
+          <Button onClick={handleCheckout}> תשלום מאובטח </Button>
         )}
       </p>
     </Modal>

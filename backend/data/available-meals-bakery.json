@@ -1,0 +1,44 @@
+[
+  {
+    "id": "b1",
+    "name": "קרואסון חמאה",
+    "price": "6.50",
+    "description": "קרואסון צרפתי פריך עם שכבות רכות וטעימות, עשוי חמאה איכותית.",
+    "image": "images/bakery/croissant_butter.jpg"
+  },
+  {
+    "id": "b2",
+    "name": "פאן או שוקולה",
+    "price": "7.50",
+    "description": "קרואסון חמאה ממולא בשוקולד ולורונה – מושלם לבוקר מתוק.",
+    "image": "images/bakery/pan_au_chocolat.jpg"
+  },
+  {
+    "id": "b3",
+    "name": "קרואסון שקדים",
+    "price": "7.00",
+    "description": "קרואסון מוש משובץ בקרם שקדים ואגוזים, מצופה בשקדים פריכים.",
+    "image": "images/bakery/almond_croissant.jpg"
+  },
+  {
+    "id": "b4",
+    "name": "קראפין אוכמניות",
+    "price": "7.00",
+    "description": "שילוב של קרואסון ומאפין, ממולא קרם אוכמניות טרי – פריך ורך בו־זמנית.",
+    "image": "images/bakery/blueberry_cruffin.jpg"
+  },
+  {
+    "id": "b5",
+    "name": "בגט צרפתי",
+    "price": "4.50",
+    "description": "בגט ארוך, פריך מבחוץ ורך מבפנים – מאפה לחם ספרדי-צרפתי מסורתי.",
+    "image": "images/bakery/french_baguette.jpg"
+  },
+  {
+    "id": "b6",
+    "name": "גארמושקה",
+    "price": "6.00",
+    "description": "מאפה בצורת קונוס, פריך וקליל, בציפוי אבקת סוכר, מושלם לצד קפה.",
+    "image": "images/bakery/garmoshka.jpg"
+  }
+]
